@@ -29,13 +29,13 @@ Aplikasi ini dibangun menggunakan tumpukan teknologi modern berkinerja tinggi:
 ## 📂 Struktur Dokumentasi Proyek
 
 Semua rencana dan analisis kebutuhan sistem didokumentasikan secara lengkap dalam folder `/docs`:
-1. **[Technical Requirements Document (TRD)](file:///k:/Personal/SSBBaturetno/SSBBaturetnoApp/docs/TRD.md)** – Mendefinisikan fitur utama, peran pengguna, dan diagram alur sistem.
-2. **[Database Schema Design](file:///k:/Personal/SSBBaturetno/SSBBaturetnoApp/docs/DATABASE_SCHEMA.md)** – Rancangan model database relasional dan diagram ERD.
-3. **[User Flows & Sitemap](file:///k:/Personal/SSBBaturetno/SSBBaturetnoApp/docs/USER_FLOWS.md)** – Alur perjalanan pengguna dari login hingga portal rapor.
-4. **[API Specification](file:///k:/Personal/SSBBaturetno/SSBBaturetnoApp/docs/API_SPECIFICATION.md)** – Penjelasan endpoint REST API beserta payload request/response.
-5. **[Wireframe Layouts](file:///k:/Personal/SSBBaturetno/SSBBaturetnoApp/docs/WIREFRAMES.md)** – Panduan visual rancangan tata letak antarmuka pengguna.
-6. **[Technology Stack Specification](file:///k:/Personal/SSBBaturetno/SSBBaturetnoApp/docs/TECH_STACK.md)** – Detail spesifikasi komponen platform teknologi yang digunakan.
-7. **[Implementation Plan](file:///k:/Personal/SSBBaturetno/SSBBaturetnoApp/docs/IMPLEMENTATION_PLAN.md)** – Peta jalan (milestone) tahapan pengembangan aplikasi.
+1. **[Technical Requirements Document (TRD)](docs/TRD.md)** – Mendefinisikan fitur utama, peran pengguna, dan diagram alur sistem.
+2. **[Database Schema Design](docs/DATABASE_SCHEMA.md)** – Rancangan model database relasional dan diagram ERD.
+3. **[User Flows & Sitemap](docs/USER_FLOWS.md)** – Alur perjalanan pengguna dari login hingga portal rapor.
+4. **[API Specification](docs/API_SPECIFICATION.md)** – Penjelasan endpoint REST API beserta payload request/response.
+5. **[Wireframe Layouts](docs/WIREFRAMES.md)** – Panduan visual rancangan tata letak antarmuka pengguna.
+6. **[Technology Stack Specification](docs/TECH_STACK.md)** – Detail spesifikasi komponen platform teknologi yang digunakan.
+7. **[Implementation Plan](docs/IMPLEMENTATION_PLAN.md)** – Peta jalan (milestone) tahapan pengembangan aplikasi.
 
 ---
 
