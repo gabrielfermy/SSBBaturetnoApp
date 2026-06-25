@@ -8,27 +8,18 @@ Dokumen ini menyajikan rencana kerja (roadmap), lini masa (timeframe), serta est
 ## 1. Roadmap & Timeframe (Lini Masa Kerja)
 
 Pengembangan aplikasi ini direncanakan berlangsung selama **10 Minggu** (sekitar 2,5 bulan), terbagi ke dalam 6 Milestone utama:
+### Bagan Timeline Proyek (10 Minggu)
 
-```mermaid
-gantt
-    title Timeline Kerja Pengembangan Sistem (10 Minggu)
-    dateFormat YYYY-MM-DD
-    axisFormat W%W
-    
-    section Desain & Analisis
-    Milestone 1 (Week 1) :active, m1, 2026-01-05, 7d
-    
-    section Pengembangan Inti
-    Milestone 2 (Week 2-3) : m2, 2026-01-12, 14d
-    Milestone 3 (Week 4-5) : m3, 2026-01-26, 14d
-    Milestone 4 (Week 6-7) : m4, 2026-02-09, 14d
-    
-    section Integrasi & CMS
-    Milestone 5 (Week 8-9) : m5, 2026-02-23, 14d
-    
-    section QA & Peluncuran
-    Milestone 6 (Week 10) : m6, 2026-03-09, 7d
-```
+| Tahapan / Milestone | M1 (W1) | M2 (W2) | M3 (W3) | M4 (W4) | M5 (W5) | M6 (W6) | M7 (W7) | M8 (W8) | M9 (W9) | M10 (W10) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **M1: Analisis & Wireframe** | 🟩 | | | | | | | | | |
+| **M2: Setup DB & Auth** | | 🟩 | 🟩 | | | | | | | |
+| **M3: Siswa & Kurikulum** | | | | 🟩 | 🟩 | | | | | |
+| **M4: Nilai & Portal Ortu** | | | | | | 🟩 | 🟩 | | | |
+| **M5: Web Publik & CMS** | | | | | | | | 🟩 | 🟩 | |
+| **M6: QA, Deploy & Training** | | | | | | | | | | 🟩 |
+
+*(Keterangan: Simbol 🟩 menunjukkan durasi pengerjaan aktif per minggu (Week 1 - Week 10))*
 
 ### Tabel Rangkuman Lini Masa (Timeframe Summary)
 
