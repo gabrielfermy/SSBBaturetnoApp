@@ -71,8 +71,8 @@ Mulai tahun kedua, biaya pengembangan ditiadakan (minus pengembangan). Anggaran 
 | **Biaya Operasional & Infrastruktur (Tahunan)** | Perpanjangan hak nama domain resmi, sewa database cloud, hosting Next.js, dan kuota email sistem | Rp 2.000.000 |
 | **Total Anggaran Tahunan (Mulai Tahun ke-2)** | **Biaya Perpanjangan Operasional & Domain** | **Rp 2.000.000 / tahun** |
 
-## 4. Ketentuan Pembayaran (Term of Payment) - Rekomendasi
-Untuk menjamin kelancaran pengerjaan proyek:
-1.  **Term 1 (DP 30%):** Pembayaran awal setelah persetujuan rencana kerja (Milestone 1).
-2.  **Term 2 (Progress 40%):** Pembayaran setelah Milestone 3 selesai (Manajemen Murid, Staf, & Kurikulum aktif).
-3.  **Term 3 (Pelunasan 30%):** Pembayaran akhir setelah sistem selesai diuji, dideploy ke server produksi, dan diserahterimakan (Milestone 6).
+## 4. Ketentuan Pembayaran (Term of Payment)
+
+Untuk menjamin kelancaran pengerjaan proyek, sistem pembayaran dibagi menjadi **2 Termin (50% / 50%)**:
+1.  **Termin 1 (DP 50%):** Pembayaran uang muka (down payment) sebesar 50% setelah persetujuan rencana kerja & penandatanganan kesepakatan pengerjaan (Milestone 1).
+2.  **Termin 2 (Pelunasan 50%):** Pembayaran akhir sebesar 50% setelah sistem selesai diuji, didemonstrasikan, dideploy ke server produksi (Vercel & Supabase), serta serah terima sistem secara penuh (Milestone 6).
