@@ -50,36 +50,32 @@ gantt
     *   Deployment final ke Vercel dan penyambungan domain kustom.
     *   Pelatihan (training) penggunaan sistem untuk staf SSB Baturetno.
 
----
+## 2. Rincian Anggaran Biaya Tahun Pertama (First Year Budget)
 
-## 2. Estimasi Biaya Pengembangan (One-Time Cost)
+Anggaran tahun pertama mencakup seluruh jasa pengembangan aplikasi oleh **Ashvin Labs** (one-time fee) digabungkan dengan biaya infrastruktur server produksi serta domain untuk 12 bulan pertama:
 
-Estimasi jasa profesional pengembangan sistem oleh **Ashvin Labs** untuk cakupan kerja di atas:
-
-| Keterangan Pekerjaan | Estimasi Biaya (IDR) |
-| :--- | :--- |
-| **UI/UX Design & Frontend Development** (Tailwind CSS, shadcn/ui, Responsive Layout) | Rp 3.000.000 |
-| **Backend & Database Integration** (Next.js Server Actions, Supabase Postgres, Prisma ORM, Security JWT) | Rp 3.500.000 |
-| **System Integrations** (Resend Email API, Generator PDF Locked, Export Excel Engine) | Rp 1.500.000 |
-| **Testing, Quality Assurance (QA), & Deployment** (Setup Vercel, Hosting, DNS) | Rp 1.000.000 |
-| **Training & Dokumentasi Penggunaan** (Pelatihan Staf Admin & Pelatih) | Rp 500.000 |
-| **Total Estimasi Biaya Pengembangan (Skema Portfolio/Kemitraan)** | **Rp 9.500.000** |
-
----
-
-## 3. Estimasi Biaya Operasional (Tahunan / Recurring Yearly Cost)
-
-Berikut adalah perkiraan biaya operasional pihak ketiga (infrastruktur cloud) yang diperlukan untuk menjaga aplikasi tetap berjalan secara optimal di server produksi dengan standar performa tinggi (**Pro Tier**):
-
-| Komponen Layanan | Detail Spesifikasi (Pro Tier) | Estimasi Biaya Tahunan (IDR / USD) |
+| Komponen Anggaran | Detail Spesifikasi | Estimasi Biaya (IDR) |
 | :--- | :--- | :--- |
-| **Database Supabase** | PostgreSQL Pro Tier (Backup terjadwal, penyimpanan lebih besar, prioritas performa) | $300 / tahun (Sekitar Rp 4.800.000) |
-| **Hosting Vercel** | Next.js Hosting Pro Tier (Kapasitas bandwidth lebih tinggi & performa produksi komersial) | $240 / tahun (Sekitar Rp 3.840.000) |
-| **Resend Email Service** | Pengiriman email aktivasi & undangan (Free Tier up to 3k email/bulan - Cukup untuk operasional) | Rp 0 / tahun |
-| **Domain Kustom** | Domain web resmi (.com / .id / .my.id) | Rp 150.000 - Rp 250.000 / tahun |
-| **Total Estimasi Biaya Operasional** | **Infrastruktur Produksi Pro & Domain** | **Sekitar Rp 8.890.000 / tahun** |
+| **Jasa Pengembangan Aplikasi** | UI/UX, Next.js Frontend & Backend API, Database Integration, CMS, Excel/PDF Engine | Rp 9.500.000 |
+| **Database Supabase Pro** | PostgreSQL Pro Tier (Backup otomatis, performa tinggi) selama 1 tahun | Rp 4.800.000 |
+| **Hosting Vercel Pro** | Server hosting Next.js produksi performa tinggi selama 1 tahun | Rp 3.840.000 |
+| **Domain Kustom** | Pendaftaran domain resmi SSB Baturetno (.com / .id / .my.id) untuk 1 tahun | Rp 250.000 |
+| **Layanan Email Resend** | Pengiriman email undangan token aktivasi (Free Tier) | Rp 0 |
+| **Total Anggaran Tahun Pertama** | **Pengembangan Sistem + Infrastruktur Pro & Domain 1 Tahun** | **Rp 18.390.000** |
 
 ---
+
+## 3. Rincian Anggaran Biaya Tahun Kedua & Seterusnya (Maintenance & Operational Only)
+
+Mulai tahun kedua dan seterusnya, biaya pengembangan dari Ashvin Labs ditiadakan (minus pengembangan). Anggaran hanya dialokasikan untuk biaya perpanjangan sewa infrastruktur cloud dan nama domain agar aplikasi tetap aktif:
+
+| Komponen Anggaran | Spesifikasi Operasional | Estimasi Biaya Per Tahun (IDR) |
+| :--- | :--- | :--- |
+| **Database Supabase Pro** | PostgreSQL Pro Tier (Keamanan data, perpanjangan sewa) | Rp 4.800.000 |
+| **Hosting Vercel Pro** | Server hosting Next.js produksi (Perpanjangan sewa) | Rp 3.840.000 |
+| **Domain Kustom** | Perpanjangan hak guna nama domain resmi | Rp 250.000 |
+| **Resend Email Service** | Layanan pengiriman email transaksi (Free Tier) | Rp 0 |
+| **Total Anggaran Tahunan (Mulai Tahun ke-2)** | **Biaya Sewa Server Produksi & Perpanjangan Domain** | **Rp 8.890.000 / tahun** |
 
 ## 4. Ketentuan Pembayaran (Term of Payment) - Rekomendasi
 Untuk menjamin kelancaran pengerjaan proyek:
