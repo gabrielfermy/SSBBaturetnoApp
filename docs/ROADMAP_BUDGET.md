@@ -10,16 +10,8 @@ Dokumen ini menyajikan rencana kerja (roadmap), lini masa (timeframe), serta est
 Pengembangan aplikasi ini direncanakan berlangsung selama **10 Minggu** (sekitar 2,5 bulan), terbagi ke dalam 6 Milestone utama:
 ### Bagan Timeline Proyek (10 Minggu)
 
-| Tahapan / Milestone | M1 (W1) | M2 (W2) | M3 (W3) | M4 (W4) | M5 (W5) | M6 (W6) | M7 (W7) | M8 (W8) | M9 (W9) | M10 (W10) |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **M1: Analisis & Wireframe** | 🟩 | | | | | | | | | |
-| **M2: Setup DB & Auth** | | 🟩 | 🟩 | | | | | | | |
-| **M3: Siswa & Kurikulum** | | | | 🟩 | 🟩 | | | | | |
-| **M4: Nilai & Portal Ortu** | | | | | | 🟩 | 🟩 | | | |
-| **M5: Web Publik & CMS** | | | | | | | | 🟩 | 🟩 | |
-| **M6: QA, Deploy & Training** | | | | | | | | | | 🟩 |
+![Timeline Proyek](assets/project_timeline.png)
 
-*(Keterangan: Simbol 🟩 menunjukkan durasi pengerjaan aktif per minggu (Week 1 - Week 10))*
 
 ### Tabel Rangkuman Lini Masa (Timeframe Summary)
 
