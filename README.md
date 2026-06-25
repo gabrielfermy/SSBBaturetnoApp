@@ -1,19 +1,27 @@
 # Aplikasi Manajemen SSB Baturetno
 
-Aplikasi berbasis web modern untuk mengelola data siswa, nilai perkembangan siswa (rapor fisik & teknik), kurikulum latihan, serta portal berita/blog resmi Sekolah Sepak Bola (SSB) Baturetno.
+## 📝 Kata Pengantar & Latar Belakang
 
-Aplikasi ini menggunakan desain bertema premium dengan visualisasi grafik interaktif untuk memudahkan pelatih memantau perkembangan anak didik dan memberikan akses transparan bagi orang tua siswa.
+Pendidikan olahraga sejak usia dini merupakan pilar penting dalam pembentukan karakter, kedisiplinan, dan sportivitas generasi muda. Sekolah Sepak Bola (SSB) Baturetno telah berkomitmen penuh selama bertahun-tahun dalam membina talenta-talenta muda di bidang sepak bola. Namun, seiring dengan bertambahnya jumlah siswa didik dan kompleksitas kurikulum kepelatihan, manajemen pencatatan data administrasi, kurikulum latihan, serta penilaian performa fisik dan teknik siswa yang masih bersifat manual sering kali menghadapi tantangan efisiensi dan transparansi data.
+
+Untuk menjawab tantangan tersebut, **Ashvin Labs** bekerja sama dengan **SSB Baturetno** merancang dan membangun sistem aplikasi manajemen terintegrasi berbasis web. Aplikasi ini dirancang tidak hanya untuk menyederhanakan tugas administrasi internal staf dan mempermudah pelatih dalam menginput penilaian perkembangan murid secara dinamis, tetapi juga untuk menyediakan akses informasi perkembangan anak secara real-time bagi orang tua siswa dengan cara yang aman dan interaktif tanpa kerumitan proses login.
+
+---
+
+## 📌 Status Proyek: Tahap Perencanaan (Planning Phase)
+Saat ini proyek berada dalam **Tahap Perencanaan Teknis & Analisis Kebutuhan**. Seluruh dokumen spesifikasi arsitektur, basis data, diagram alur sistem, dan rancangan antarmuka (wireframe) telah dirumuskan secara matang sebelum memasuki fase implementasi kode program.
 
 ---
 
 ## 🚀 Tumpukan Teknologi (Tech Stack)
 
-Aplikasi ini dibangun menggunakan ekosistem JavaScript modern dengan performa tinggi:
-* **Frontend & Backend:** [Next.js](https://nextjs.org/) (React + TypeScript)
+Aplikasi ini dibangun menggunakan tumpukan teknologi modern berkinerja tinggi:
+* **Framework Utama:** [Next.js](https://nextjs.org/) (React + TypeScript)
 * **Styling & UI:** [Tailwind CSS](https://tailwindcss.com/) & [shadcn/ui](https://ui.shadcn.com/)
 * **Database:** [PostgreSQL](https://www.postgresql.org/) (diinang pada [Supabase](https://supabase.com/))
 * **ORM:** [Prisma ORM](https://www.prisma.io/)
 * **Visualisasi Grafik:** [Recharts](https://recharts.org/) / [Chart.js](https://www.chartjs.org/)
+* **Sistem Email:** [Resend API](https://resend.com/)
 * **Hosting:** [Vercel](https://vercel.com/)
 
 ---
@@ -65,3 +73,11 @@ npx prisma db seed
 npm run dev
 ```
 Aplikasi dapat diakses melalui browser di alamat [http://localhost:3000](http://localhost:3000).
+
+---
+
+## ⚖️ Hak Cipta & Lisensi
+
+**Intellectual Property of Ashvin Labs Indonesia**  
+*Copyright © 2026 Ashvin Labs. All Rights Reserved.*  
+Seluruh rancangan, kode sumber, dan dokumentasi ini merupakan properti intelektual milik Ashvin Labs Indonesia dan hanya ditujukan untuk penggunaan resmi SSB Baturetno. Penggandaan, distribusi, atau pemakaian di luar ketentuan kontrak kerja sama tanpa izin tertulis dari Ashvin Labs adalah dilarang.
