@@ -58,12 +58,12 @@ Estimasi jasa profesional pengembangan sistem oleh **Ashvin Labs** untuk cakupan
 
 | Keterangan Pekerjaan | Estimasi Biaya (IDR) |
 | :--- | :--- |
-| **UI/UX Design & Frontend Development** (Tailwind CSS, shadcn/ui, Responsive Layout) | Rp 10.000.000 |
-| **Backend & Database Integration** (Next.js Server Actions, Supabase Postgres, Prisma ORM, Security JWT) | Rp 12.000.000 |
-| **System Integrations** (Resend Email API, Generator PDF Locked, Export Excel Engine) | Rp 7.000.000 |
-| **Testing, Quality Assurance (QA), & Deployment** (Setup Vercel, Hosting, DNS) | Rp 3.000.000 |
-| **Training & Dokumentasi Penggunaan** (Pelatihan Staf Admin & Pelatih) | Rp 3.000.000 |
-| **Total Estimasi Biaya Pengembangan** | **Rp 35.000.000** |
+| **UI/UX Design & Frontend Development** (Tailwind CSS, shadcn/ui, Responsive Layout) | Rp 3.000.000 |
+| **Backend & Database Integration** (Next.js Server Actions, Supabase Postgres, Prisma ORM, Security JWT) | Rp 3.500.000 |
+| **System Integrations** (Resend Email API, Generator PDF Locked, Export Excel Engine) | Rp 1.500.000 |
+| **Testing, Quality Assurance (QA), & Deployment** (Setup Vercel, Hosting, DNS) | Rp 1.000.000 |
+| **Training & Dokumentasi Penggunaan** (Pelatihan Staf Admin & Pelatih) | Rp 500.000 |
+| **Total Estimasi Biaya Pengembangan (Skema Portfolio/Kemitraan)** | **Rp 9.500.000** |
 
 ---
 
