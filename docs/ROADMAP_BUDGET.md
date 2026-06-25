@@ -58,26 +58,39 @@ graph LR
     *   Deployment final ke Vercel dan penyambungan domain kustom.
     *   Pelatihan (training) penggunaan sistem untuk staf SSB Baturetno.
 
-## 2. Rincian Anggaran Biaya Tahun Pertama (First Year Budget)
+## 2. Rincian Anggaran Biaya - Opsi A: Skema Kemitraan (Friend-to-Friend / Pro Bono)
 
-Anggaran tahun pertama mencakup biaya pengembangan aplikasi oleh **Ashvin Labs** digabungkan dengan biaya sewa infrastruktur cloud dasar dan domain untuk 12 bulan pertama:
+Opsi ini ditujukan khusus sebagai skema kemitraan bersahabat dengan menggunakan spesifikasi server standar (*Free/Hobby Tier*) serta pemotongan jasa pengembangan oleh Ashvin Labs guna menambah portofolio:
 
+### A. Anggaran Tahun Pertama (Opsi Kemitraan)
 | Komponen Anggaran | Penjelasan Item | Estimasi Biaya (IDR) |
 | :--- | :--- | :--- |
-| **Jasa Pengembangan Aplikasi** | Pengembangan UI/UX, Next.js, Database Postgres, integrasi Resend Email, Rapor PDF & Ekspor Excel | Rp 9.500.000 |
-| **Biaya Operasional & Infrastruktur (Tahun 1)** | Pembelian Domain resmi (.com/.id), kuota email sistem, sewa database cloud & web hosting | Rp 2.000.000 |
-| **Total Anggaran Tahun Pertama** | **Pengembangan Sistem + Operasional & Domain Tahun Pertama** | **Rp 11.500.000** |
+| **Jasa Pengembangan Aplikasi** | Biaya subsidi pengembangan UI/UX, Next.js, Postgres Database, integrasi Resend Email, Rapor PDF & Ekspor Excel | Rp 9.500.000 |
+| **Biaya Operasional & Infrastruktur (Tahun 1)** | Pembelian Domain resmi (.com/.id), sewa database cloud & web hosting standar | Rp 2.000.000 |
+| **Total Anggaran Tahun Pertama (Opsi A)** | **Pengembangan Sistem + Operasional Tahun Pertama** | **Rp 11.500.000** |
+
+### B. Anggaran Tahun Kedua & Seterusnya (Opsi Kemitraan)
+*   **Total Anggaran Tahunan (Mulai Tahun ke-2):** **Rp 2.000.000 / tahun**  
+    *(Hanya mencakup perpanjangan sewa domain, sewa server web, dan kuota email standard/free tier - minus biaya pengembangan)*
 
 ---
 
-## 3. Rincian Anggaran Biaya Tahun Kedua & Seterusnya (Maintenance & Operational Only)
+## 3. Rincian Anggaran Biaya - Opsi B: Skema Standar Enterprise (Harga Pasar Normal)
 
-Mulai tahun kedua, biaya pengembangan ditiadakan (minus pengembangan). Anggaran hanya digunakan untuk perpanjangan domain dan kebutuhan sewa server/database agar sistem terus berjalan:
+Opsi ini mencerminkan estimasi harga pasar normal untuk pengerjaan skala industri komersial profesional dengan alokasi infrastruktur server performa tinggi (*Pro Tier* dengan dukungan *backup* otomatis harian dan keamanan tingkat tinggi):
 
-| Komponen Anggaran | Penjelasan Item | Estimasi Biaya Per Tahun (IDR) |
+### A. Anggaran Tahun Pertama (Opsi Enterprise)
+| Komponen Anggaran | Penjelasan Item | Estimasi Biaya (IDR) |
 | :--- | :--- | :--- |
-| **Biaya Operasional & Infrastruktur (Tahunan)** | Perpanjangan hak nama domain resmi, sewa database cloud, hosting Next.js, dan kuota email sistem | Rp 2.000.000 |
-| **Total Anggaran Tahunan (Mulai Tahun ke-2)** | **Biaya Perpanjangan Operasional & Domain** | **Rp 2.000.000 / tahun** |
+| **Jasa Pengembangan Aplikasi** | Jasa pembuatan sistem profesional penuh oleh Ashvin Labs (UI/UX, Backend, DB integration, QA, Training, Deployment) | Rp 35.000.000 |
+| **Biaya Operasional & Infrastruktur (Tahun 1)** | Pembelian Domain resmi, sewa database cloud PostgreSQL Pro Tier (Supabase Pro) & cloud hosting performa tinggi (Vercel Pro) | Rp 8.890.000 |
+| **Total Anggaran Tahun Pertama (Opsi B)** | **Pengembangan Sistem + Operasional Pro Tier & Domain** | **Rp 43.890.000** |
+
+### B. Anggaran Tahun Kedua & Seterusnya (Opsi Enterprise)
+*   **Total Anggaran Tahunan (Mulai Tahun ke-2):** **Rp 8.890.000 / tahun**  
+    *(Mencakup biaya sewa tahunan Supabase Pro Tier, Vercel Pro Tier, perpanjangan nama domain kustom, serta pemeliharaan sistem berkala)*
+
+---
 
 ## 4. Ketentuan Pembayaran (Term of Payment)
 
