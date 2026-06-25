@@ -52,30 +52,24 @@ gantt
 
 ## 2. Rincian Anggaran Biaya Tahun Pertama (First Year Budget)
 
-Anggaran tahun pertama mencakup seluruh jasa pengembangan aplikasi oleh **Ashvin Labs** (one-time fee) digabungkan dengan biaya infrastruktur server produksi serta domain untuk 12 bulan pertama:
+Anggaran tahun pertama mencakup biaya pengembangan aplikasi oleh **Ashvin Labs** digabungkan dengan biaya sewa infrastruktur cloud dasar dan domain untuk 12 bulan pertama:
 
-| Komponen Anggaran | Detail Spesifikasi | Estimasi Biaya (IDR) |
+| Komponen Anggaran | Penjelasan Item | Estimasi Biaya (IDR) |
 | :--- | :--- | :--- |
-| **Jasa Pengembangan Aplikasi** | UI/UX, Next.js Frontend & Backend API, Database Integration, CMS, Excel/PDF Engine | Rp 9.500.000 |
-| **Database Supabase Pro** | PostgreSQL Pro Tier (Backup otomatis, performa tinggi) selama 1 tahun | Rp 4.800.000 |
-| **Hosting Vercel Pro** | Server hosting Next.js produksi performa tinggi selama 1 tahun | Rp 3.840.000 |
-| **Domain Kustom** | Pendaftaran domain resmi SSB Baturetno (.com / .id / .my.id) untuk 1 tahun | Rp 250.000 |
-| **Layanan Email Resend** | Pengiriman email undangan token aktivasi (Free Tier) | Rp 0 |
-| **Total Anggaran Tahun Pertama** | **Pengembangan Sistem + Infrastruktur Pro & Domain 1 Tahun** | **Rp 18.390.000** |
+| **Jasa Pengembangan Aplikasi** | Pengembangan UI/UX, Next.js, Database Postgres, integrasi Resend Email, Rapor PDF & Ekspor Excel | Rp 9.500.000 |
+| **Biaya Operasional & Infrastruktur (Tahun 1)** | Pembelian Domain resmi (.com/.id), kuota email sistem, sewa database cloud & web hosting (Standard/Free Tier) | Rp 500.000 |
+| **Total Anggaran Tahun Pertama** | **Pengembangan Sistem + Operasional & Domain Tahun Pertama** | **Rp 10.000.000** |
 
 ---
 
 ## 3. Rincian Anggaran Biaya Tahun Kedua & Seterusnya (Maintenance & Operational Only)
 
-Mulai tahun kedua dan seterusnya, biaya pengembangan dari Ashvin Labs ditiadakan (minus pengembangan). Anggaran hanya dialokasikan untuk biaya perpanjangan sewa infrastruktur cloud dan nama domain agar aplikasi tetap aktif:
+Mulai tahun kedua, biaya pengembangan ditiadakan (minus pengembangan). Anggaran hanya digunakan untuk perpanjangan domain dan kebutuhan sewa server/database agar sistem terus berjalan:
 
-| Komponen Anggaran | Spesifikasi Operasional | Estimasi Biaya Per Tahun (IDR) |
+| Komponen Anggaran | Penjelasan Item | Estimasi Biaya Per Tahun (IDR) |
 | :--- | :--- | :--- |
-| **Database Supabase Pro** | PostgreSQL Pro Tier (Keamanan data, perpanjangan sewa) | Rp 4.800.000 |
-| **Hosting Vercel Pro** | Server hosting Next.js produksi (Perpanjangan sewa) | Rp 3.840.000 |
-| **Domain Kustom** | Perpanjangan hak guna nama domain resmi | Rp 250.000 |
-| **Resend Email Service** | Layanan pengiriman email transaksi (Free Tier) | Rp 0 |
-| **Total Anggaran Tahunan (Mulai Tahun ke-2)** | **Biaya Sewa Server Produksi & Perpanjangan Domain** | **Rp 8.890.000 / tahun** |
+| **Biaya Operasional & Infrastruktur (Tahunan)** | Perpanjangan hak nama domain resmi, sewa database cloud, hosting Next.js, dan kuota email sistem (Standard/Free Tier) | Rp 500.000 |
+| **Total Anggaran Tahunan (Mulai Tahun ke-2)** | **Biaya Perpanjangan Operasional & Domain** | **Rp 500.000 / tahun** |
 
 ## 4. Ketentuan Pembayaran (Term of Payment) - Rekomendasi
 Untuk menjamin kelancaran pengerjaan proyek:
