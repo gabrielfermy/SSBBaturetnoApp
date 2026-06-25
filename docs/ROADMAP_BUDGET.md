@@ -67,21 +67,17 @@ Estimasi jasa profesional pengembangan sistem oleh **Ashvin Labs** untuk cakupan
 
 ---
 
-## 3. Estimasi Biaya Operasional (Recurring Cost)
+## 3. Estimasi Biaya Operasional (Tahunan / Recurring Yearly Cost)
 
-Berikut estimasi biaya pihak ketiga (infrastruktur cloud) yang diperlukan untuk menjaga aplikasi tetap aktif.
+Berikut adalah perkiraan biaya operasional pihak ketiga (infrastruktur cloud) yang diperlukan untuk menjaga aplikasi tetap berjalan secara optimal di server produksi dengan standar performa tinggi (**Pro Tier**):
 
-### A. Biaya Bulanan (Infrastruktur Cloud)
-*   **Database Supabase:**
-    *   *Free Tier* (Cukup untuk kapasitas awal SSB) atau *Pro Tier* (Untuk backup terjadwal dan performa tinggi): **$0 - $25/bulan** (Sekitar Rp 0 - Rp 400.000/bulan).
-*   **Hosting Vercel:**
-    *   *Hobby Tier* (Gratis untuk penggunaan wajar) atau *Pro Tier* (Untuk performa produksi komersial): **$0 - $20/bulan** (Sekitar Rp 0 - Rp 320.000/bulan).
-*   **Resend Email Service:**
-    *   *Free Tier* (Hingga 3.000 email per bulan - sangat cukup untuk staf SSB Baturetno): **Rp 0/bulan**.
-
-### B. Biaya Tahunan (Domain Name)
-*   **Domain Kustom (.com / .id / .my.id):**
-    *   Pembelian & perpanjangan domain: **Rp 150.000 - Rp 250.000/tahun** (tergantung ekstensi).
+| Komponen Layanan | Detail Spesifikasi (Pro Tier) | Estimasi Biaya Tahunan (IDR / USD) |
+| :--- | :--- | :--- |
+| **Database Supabase** | PostgreSQL Pro Tier (Backup terjadwal, penyimpanan lebih besar, prioritas performa) | $300 / tahun (Sekitar Rp 4.800.000) |
+| **Hosting Vercel** | Next.js Hosting Pro Tier (Kapasitas bandwidth lebih tinggi & performa produksi komersial) | $240 / tahun (Sekitar Rp 3.840.000) |
+| **Resend Email Service** | Pengiriman email aktivasi & undangan (Free Tier up to 3k email/bulan - Cukup untuk operasional) | Rp 0 / tahun |
+| **Domain Kustom** | Domain web resmi (.com / .id / .my.id) | Rp 150.000 - Rp 250.000 / tahun |
+| **Total Estimasi Biaya Operasional** | **Infrastruktur Produksi Pro & Domain** | **Sekitar Rp 8.890.000 / tahun** |
 
 ---
 
