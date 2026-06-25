@@ -10,19 +10,24 @@ Dokumen ini menyajikan rencana kerja (roadmap), lini masa (timeframe), serta est
 Pengembangan aplikasi ini direncanakan berlangsung selama **10 Minggu** (sekitar 2,5 bulan), terbagi ke dalam 6 Milestone utama:
 
 ```mermaid
-graph LR
-    M1["W1: Analisis & Wireframe"] --> M2["W2-3: Setup DB & Auth"]
-    M2 --> M3["W4-5: Siswa & Kurikulum"]
-    M3 --> M4["W6-7: Nilai & Portal Ortu"]
-    M4 --> M5["W8-9: Web Publik & CMS"]
-    M5 --> M6["W10: QA & Release"]
+gantt
+    title Timeline Kerja Pengembangan Sistem (10 Minggu)
+    dateFormat YYYY-MM-DD
+    axisFormat W%W
     
-    style M1 fill:#e1f5fe,stroke:#03a9f4,stroke-width:2px;
-    style M2 fill:#e8f5e9,stroke:#4caf50,stroke-width:2px;
-    style M3 fill:#e8f5e9,stroke:#4caf50,stroke-width:2px;
-    style M4 fill:#e8f5e9,stroke:#4caf50,stroke-width:2px;
-    style M5 fill:#fff3e0,stroke:#ff9800,stroke-width:2px;
-    style M6 fill:#ffebee,stroke:#f44336,stroke-width:2px;
+    section Desain & Analisis
+    Milestone 1 (Week 1) :active, m1, 2026-01-05, 7d
+    
+    section Pengembangan Inti
+    Milestone 2 (Week 2-3) : m2, 2026-01-12, 14d
+    Milestone 3 (Week 4-5) : m3, 2026-01-26, 14d
+    Milestone 4 (Week 6-7) : m4, 2026-02-09, 14d
+    
+    section Integrasi & CMS
+    Milestone 5 (Week 8-9) : m5, 2026-02-23, 14d
+    
+    section QA & Peluncuran
+    Milestone 6 (Week 10) : m6, 2026-03-09, 7d
 ```
 
 ### Tabel Rangkuman Lini Masa (Timeframe Summary)
