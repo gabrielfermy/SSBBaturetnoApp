@@ -68,7 +68,7 @@
   <!-- Docsify Library -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   
-  <!-- Custom Plugin to Render Mermaid after page load -->
+  <!-- Custom Plugin to Render Mermaid & Footer after page load -->
   <script>
     (function() {
       var mermaidPlugin = function(hook, vm) {
@@ -76,7 +76,21 @@
           mermaid.init(undefined, '.mermaid');
         });
       };
-      window.$docsify.plugins = [].concat(window.$docsify.plugins || [], mermaidPlugin);
+      
+      var footerPlugin = function(hook, vm) {
+        hook.afterEach(function(html) {
+          var footer = [
+            '<hr style="margin: 40px 0 20px 0; border: 0; border-top: 1px solid #eee;" />',
+            '<footer style="text-align: center; padding: 10px 0; font-size: 0.85em; color: #888;">',
+            '  <span>Copyright &copy; 2026 <strong>Ashvin Labs Indonesia</strong>. All Rights Reserved.</span><br/>',
+            '  <small style="color: #bbb;">SSB Baturetno App - Intellectual Property Documentation</small>',
+            '</footer>'
+          ].join('');
+          return html + footer;
+        });
+      };
+      
+      window.$docsify.plugins = [].concat(window.$docsify.plugins || [], mermaidPlugin, footerPlugin);
     })();
   </script>
 </body>
