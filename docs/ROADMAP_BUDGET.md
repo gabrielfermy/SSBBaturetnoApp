@@ -17,22 +17,22 @@ gantt
     axisFormat  W%W
     
     section Milestone 1
-    M1: Analisis & Wireframe (W1) : active, m1, 2026-06-01, 2026-06-08
+    M1 - Analisis & Wireframe (W1) : active, m1, 2026-06-01, 2026-06-08
     
     section Milestone 2
-    M2: Setup DB & Auth (W2-W3) : active, m2, 2026-06-08, 2026-06-22
+    M2 - Setup DB & Auth (W2-W3) : active, m2, 2026-06-08, 2026-06-22
     
     section Milestone 3
-    M3: Siswa & Kurikulum (W4-W5) : active, m3, 2026-06-22, 2026-07-06
+    M3 - Siswa & Kurikulum (W4-W5) : active, m3, 2026-06-22, 2026-07-06
     
     section Milestone 4
-    M4: Nilai & Portal Ortu (W6-W7) : active, m4, 2026-07-06, 2026-07-20
+    M4 - Nilai & Portal Ortu (W6-W7) : active, m4, 2026-07-06, 2026-07-20
     
     section Milestone 5
-    M5: Web Publik & CMS (W8-W9) : active, m5, 2026-07-20, 2026-08-03
+    M5 - Web Publik & CMS (W8-W9) : active, m5, 2026-07-20, 2026-08-03
     
     section Milestone 6
-    M6: QA, Deploy & Training (W10) : active, m6, 2026-08-03, 2026-08-10
+    M6 - QA, Deploy & Training (W10) : active, m6, 2026-08-03, 2026-08-10
 ```
 
 
