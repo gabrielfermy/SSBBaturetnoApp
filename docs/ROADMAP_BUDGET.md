@@ -10,19 +10,12 @@ Dokumen ini menyajikan rencana kerja (roadmap), lini masa (timeframe), serta est
 Pengembangan aplikasi ini direncanakan berlangsung selama **10 Minggu** (sekitar 2,5 bulan), terbagi ke dalam 6 Milestone utama:
 
 ```mermaid
-gantt
-    title Lini Masa Proyek SSB Baturetno
-    dateFormat  YYYY-MM-DD
-    section Fase Analisis & Desain
-    Milestone 1 (Desain & TRD) :active, 2026-07-01, 7d
-    section Fase Pengembangan Inti
-    Milestone 2 (Database & Auth) : 2026-07-08, 14d
-    Milestone 3 (Manajemen Murid & Kurikulum) : 2026-07-22, 14d
-    Milestone 4 (Penilaian & Portal Orang Tua) : 2026-08-05, 14d
-    section Fase Integrasi & CMS
-    Milestone 5 (Web Publik, CMS, Ekspor Laporan) : 2026-08-19, 14d
-    section Fase QA & Peluncuran
-    Milestone 6 (Pengujian, Deploy, Training) : 2026-09-02, 7d
+graph TD
+    M1["Milestone 1 (Minggu 1)<br/>Analisis Kebutuhan & Desain Wireframe"] --> M2["Milestone 2 (Minggu 2-3)<br/>Setup Proyek, Database Supabase, & Auth"]
+    M2 --> M3["Milestone 3 (Minggu 4-5)<br/>Manajemen Profil Murid & Modul Kurikulum"]
+    M3 --> M4["Milestone 4 (Minggu 6-7)<br/>Input Nilai Pelatih & Portal Rapor Orang Tua"]
+    M4 --> M5["Milestone 5 (Minggu 8-9)<br/>Website Publik, CMS Berita, & Ekspor Laporan"]
+    M5 --> M6["Milestone 6 (Minggu 10)<br/>Pengujian QA, Deployment Vercel, & Training"]
 ```
 
 ### Rincian Milestone:
