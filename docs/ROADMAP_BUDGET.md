@@ -9,13 +9,23 @@ Dokumen ini menyajikan rencana kerja (roadmap), lini masa (timeframe), serta est
 
 Pengembangan aplikasi ini direncanakan berlangsung selama **10 Minggu** (sekitar 2,5 bulan), terbagi ke dalam 6 Milestone utama:
 
+*(Catatan: Tanggal di bawah adalah tanggal fiktif untuk mensimulasikan visualisasi timeline mingguan di mana 7 hari = 1 minggu)*
+
 ```mermaid
-graph TD
-    M1["Milestone 1 (Minggu 1)<br/>Analisis Kebutuhan & Desain Wireframe"] --> M2["Milestone 2 (Minggu 2-3)<br/>Setup Proyek, Database Supabase, & Auth"]
-    M2 --> M3["Milestone 3 (Minggu 4-5)<br/>Manajemen Profil Murid & Modul Kurikulum"]
-    M3 --> M4["Milestone 4 (Minggu 6-7)<br/>Input Nilai Pelatih & Portal Rapor Orang Tua"]
-    M4 --> M5["Milestone 5 (Minggu 8-9)<br/>Website Publik, CMS Berita, & Ekspor Laporan"]
-    M5 --> M6["Milestone 6 (Minggu 10)<br/>Pengujian QA, Deployment Vercel, & Training"]
+gantt
+    title Timeline Proyek (10 Minggu)
+    dateFormat  YYYY-MM-DD
+    axisFormat  Minggu %W
+    section Fase Desain
+    Milestone 1 (Week 1) :active, m1, 2026-01-05, 7d
+    section Fase Inti
+    Milestone 2 (Week 2-3) : m2, 2026-01-12, 14d
+    Milestone 3 (Week 4-5) : m3, 2026-01-26, 14d
+    Milestone 4 (Week 6-7) : m4, 2026-02-09, 14d
+    section Fase Integrasi & CMS
+    Milestone 5 (Week 8-9) : m5, 2026-02-23, 14d
+    section Fase QA & Rilis
+    Milestone 6 (Week 10) : m6, 2026-03-09, 7d
 ```
 
 ### Rincian Milestone:
