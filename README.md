@@ -50,9 +50,7 @@ Buat file `.env` di direktori utama (root) dan masukkan kredensial Supabase Post
 ```env
 DATABASE_URL="postgresql://postgres:password@db.supabase.co:5432/postgres?schema=public"
 JWT_SECRET="rahasia_super_aman_anda"
-SMTP_HOST="smtp.mailtrap.io"
-SMTP_USER="username"
-SMTP_PASS="password"
+RESEND_API_KEY="re_your_resend_api_key_here"
 ```
 
 ### 4. Sinkronisasi Database (Prisma)

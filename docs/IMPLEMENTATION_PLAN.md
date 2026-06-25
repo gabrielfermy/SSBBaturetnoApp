@@ -12,8 +12,7 @@ Dokumen ini menjelaskan tahapan implementasi teknis untuk membangun aplikasi man
 
 ## Tahap 2: Autentikasi & Sistem Undangan Email
 - Implementasi backend middleware JWT dan hashing password (bcrypt).
-- Fitur "Invite User" oleh Super Admin: backend membuat token aktivasi unik.
-- Pengiriman email undangan (simulasi dengan log konsol / Mailtrap / SMTP).
+- Pengiriman email undangan menggunakan integrasi **Resend API**.
 - Pembuatan halaman Frontend `/setup-password?token=...` untuk aktivasi akun.
 
 ## Tahap 3: Modul Administrasi (Siswa & Parameter Penilaian)

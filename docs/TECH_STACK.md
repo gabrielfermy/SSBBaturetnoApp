@@ -32,8 +32,7 @@ Dokumen ini menjelaskan tumpukan teknologi (tech stack) yang dipilih untuk memba
 ## 3. Integrasi & Layanan Pihak Ketiga (Third-Party Services)
 
 * **Pengiriman Email Undangan:**
-  * **Nodemailer** (backend library).
-  * Layanan SMTP gratis/berbayar (seperti **Resend**, **SendGrid**, atau **Mailtrap** untuk lingkungan pengujian/sandbox).
+  * **Resend SDK** / **Resend API** untuk mengirim email undangan token aktivasi dari Super Admin ke staf/pelatih.
 * **Pembuatan PDF & Excel (Rapor & Data Siswa):**
   * **html2pdf.js** atau **jsPDF** untuk konversi instan halaman rapor web menjadi dokumen PDF berkualitas tinggi siap unduh di sisi pengguna.
   * **exceljs** atau **xlsx (SheetJS)** di backend/frontend untuk melakukan ekspor data tabel rekap siswa dan nilai ke file Excel (.xlsx).
