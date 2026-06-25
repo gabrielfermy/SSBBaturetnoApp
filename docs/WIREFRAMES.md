@@ -9,6 +9,8 @@ Dokumen ini memetakan rancangan tata letak visual (wireframe) halaman-halaman ut
 ### A. Homepage Utama (`/`)
 Halaman depan yang diakses oleh publik dengan nuansa premium, navigasi bersih, dan integrasi artikel berita.
 
+![Mockup Homepage Utama](assets/homepage_wireframe.png)
+
 ```
 +-----------------------------------------------------------------------------+
 |  [SSB Baturetno Logo]   Home   Tentang Kami   Berita   Kontak    [Lihat Rapor] |
@@ -87,6 +89,8 @@ Form pencarian murid dengan verifikasi tanggal lahir jika data Step 1 cocok.
 ### D. Tampilan Rapor Murid Publik (`/rapor/view`)
 Visualisasi radar chart dan detail nilai siswa.
 
+![Mockup Rapor Murid](assets/rapor_wireframe.png)
+
 ```
 +-----------------------------------------------------------------------------+
 |  [SSB Baturetno Logo]                                    [ Download PDF Rapor ] |
@@ -120,6 +124,8 @@ Visualisasi radar chart dan detail nilai siswa.
 
 ### A. Layout Utama Dashboard (`/dashboard`)
 Layout dengan sidebar navigasi responsif dan hak akses menu dinamis.
+
+![Mockup Dashboard](assets/dashboard_wireframe.png)
 
 ```
 +-----------------------------------------------------------------------------+
