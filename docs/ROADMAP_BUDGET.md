@@ -57,8 +57,8 @@ Anggaran tahun pertama mencakup biaya pengembangan aplikasi oleh **Ashvin Labs**
 | Komponen Anggaran | Penjelasan Item | Estimasi Biaya (IDR) |
 | :--- | :--- | :--- |
 | **Jasa Pengembangan Aplikasi** | Pengembangan UI/UX, Next.js, Database Postgres, integrasi Resend Email, Rapor PDF & Ekspor Excel | Rp 9.500.000 |
-| **Biaya Operasional & Infrastruktur (Tahun 1)** | Pembelian Domain resmi (.com/.id), kuota email sistem, sewa database cloud & web hosting (Standard/Free Tier) | Rp 500.000 |
-| **Total Anggaran Tahun Pertama** | **Pengembangan Sistem + Operasional & Domain Tahun Pertama** | **Rp 10.000.000** |
+| **Biaya Operasional & Infrastruktur (Tahun 1)** | Pembelian Domain resmi (.com/.id), kuota email sistem, sewa database cloud & web hosting | Rp 2.000.000 |
+| **Total Anggaran Tahun Pertama** | **Pengembangan Sistem + Operasional & Domain Tahun Pertama** | **Rp 11.500.000** |
 
 ---
 
@@ -68,8 +68,8 @@ Mulai tahun kedua, biaya pengembangan ditiadakan (minus pengembangan). Anggaran 
 
 | Komponen Anggaran | Penjelasan Item | Estimasi Biaya Per Tahun (IDR) |
 | :--- | :--- | :--- |
-| **Biaya Operasional & Infrastruktur (Tahunan)** | Perpanjangan hak nama domain resmi, sewa database cloud, hosting Next.js, dan kuota email sistem (Standard/Free Tier) | Rp 500.000 |
-| **Total Anggaran Tahunan (Mulai Tahun ke-2)** | **Biaya Perpanjangan Operasional & Domain** | **Rp 500.000 / tahun** |
+| **Biaya Operasional & Infrastruktur (Tahunan)** | Perpanjangan hak nama domain resmi, sewa database cloud, hosting Next.js, dan kuota email sistem | Rp 2.000.000 |
+| **Total Anggaran Tahunan (Mulai Tahun ke-2)** | **Biaya Perpanjangan Operasional & Domain** | **Rp 2.000.000 / tahun** |
 
 ## 4. Ketentuan Pembayaran (Term of Payment) - Rekomendasi
 Untuk menjamin kelancaran pengerjaan proyek:
