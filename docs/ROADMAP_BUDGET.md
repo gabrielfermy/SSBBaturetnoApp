@@ -9,24 +9,32 @@ Dokumen ini menyajikan rencana kerja (roadmap), lini masa (timeframe), serta est
 
 Pengembangan aplikasi ini direncanakan berlangsung selama **10 Minggu** (sekitar 2,5 bulan), terbagi ke dalam 6 Milestone utama:
 
-*(Catatan: Tanggal di bawah adalah tanggal fiktif untuk mensimulasikan visualisasi timeline mingguan di mana 7 hari = 1 minggu)*
-
 ```mermaid
-gantt
-    title Timeline Proyek (10 Minggu)
-    dateFormat  YYYY-MM-DD
-    axisFormat  Minggu %W
-    section Fase Desain
-    Milestone 1 (Week 1) :active, m1, 2026-01-05, 7d
-    section Fase Inti
-    Milestone 2 (Week 2-3) : m2, 2026-01-12, 14d
-    Milestone 3 (Week 4-5) : m3, 2026-01-26, 14d
-    Milestone 4 (Week 6-7) : m4, 2026-02-09, 14d
-    section Fase Integrasi & CMS
-    Milestone 5 (Week 8-9) : m5, 2026-02-23, 14d
-    section Fase QA & Rilis
-    Milestone 6 (Week 10) : m6, 2026-03-09, 7d
+graph LR
+    M1["W1: Analisis & Wireframe"] --> M2["W2-3: Setup DB & Auth"]
+    M2 --> M3["W4-5: Siswa & Kurikulum"]
+    M3 --> M4["W6-7: Nilai & Portal Ortu"]
+    M4 --> M5["W8-9: Web Publik & CMS"]
+    M5 --> M6["W10: QA & Release"]
+    
+    style M1 fill:#e1f5fe,stroke:#03a9f4,stroke-width:2px;
+    style M2 fill:#e8f5e9,stroke:#4caf50,stroke-width:2px;
+    style M3 fill:#e8f5e9,stroke:#4caf50,stroke-width:2px;
+    style M4 fill:#e8f5e9,stroke:#4caf50,stroke-width:2px;
+    style M5 fill:#fff3e0,stroke:#ff9800,stroke-width:2px;
+    style M6 fill:#ffebee,stroke:#f44336,stroke-width:2px;
 ```
+
+### Tabel Rangkuman Lini Masa (Timeframe Summary)
+
+| Milestone | Durasi (Waktu) | Deskripsi Tahapan Pengembangan |
+| :--- | :--- | :--- |
+| **Milestone 1** | Minggu 1 | Analisis kebutuhan sistem & persetujuan desain wireframe awal. |
+| **Milestone 2** | Minggu 2 - 3 | Inisialisasi Next.js, database Supabase, dan alur aktivasi email staf. |
+| **Milestone 3** | Minggu 4 - 5 | Pengembangan modul pengelolaan data murid (KU 9, 10, 12, 15) & kurikulum. |
+| **Milestone 4** | Minggu 6 - 7 | Modul penilaian guru & gerbang masuk verifikasi rapor orang tua. |
+| **Milestone 5** | Minggu 8 - 9 | Halaman depan publik (Homepage, Blog/Berita) & CMS pengelola konten. |
+| **Milestone 6** | Minggu 10 | Pengujian menyeluruh (QA), peluncuran produksi (Vercel), & pelatihan staf. |
 
 ### Rincian Milestone:
 
