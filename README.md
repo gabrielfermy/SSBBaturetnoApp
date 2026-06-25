@@ -36,6 +36,7 @@ Semua rencana dan analisis kebutuhan sistem didokumentasikan secara lengkap dala
 5. **[Wireframe Layouts](docs/WIREFRAMES.md)** – Panduan visual rancangan tata letak antarmuka pengguna.
 6. **[Technology Stack Specification](docs/TECH_STACK.md)** – Detail spesifikasi komponen platform teknologi yang digunakan.
 7. **[Implementation Plan](docs/IMPLEMENTATION_PLAN.md)** – Peta jalan (milestone) tahapan pengembangan aplikasi.
+8. **[Roadmap & Budget Estimation](docs/ROADMAP_BUDGET.md)** – Lini masa pengerjaan dan rincian perkiraan anggaran biaya proyek.
 
 ---
 
