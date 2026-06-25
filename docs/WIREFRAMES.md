@@ -172,6 +172,8 @@ Input nilai fleksibel per Kategori Umur.
 ### C. Halaman Login Pengguna (`/login`)
 Halaman masuk bagi staf internal (Super Admin, Admin, Guru).
 
+![Wireframe Halaman Login](assets/login_wireframe.png)
+
 ```
 +-----------------------------------------------------------------------------+
 |                                                                             |
@@ -195,6 +197,8 @@ Halaman masuk bagi staf internal (Super Admin, Admin, Guru).
 
 ### D. Halaman Kelola Pengguna (`/dashboard/users`) - Khusus Super Admin
 Halaman untuk melihat daftar staf dan mengundang pengguna baru.
+
+![Wireframe Kelola Pengguna](assets/user_management_wireframe.png)
 
 ```
 +-----------------------------------------------------------------------------+
@@ -331,6 +335,8 @@ Antarmuka untuk mengubah data landing page dan postingan artikel berita.
 
 ### J. Halaman Tambah / Edit Berita (`/dashboard/cms/posts/new` atau `/edit/[id]`)
 Antarmuka dengan Rich Text Editor untuk membuat dan memperbarui postingan berita/artikel.
+
+![Wireframe Editor Berita](assets/cms_blog_editor_wireframe.png)
 
 ```
 +-----------------------------------------------------------------------------+
